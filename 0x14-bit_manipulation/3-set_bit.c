@@ -1,8 +1,14 @@
 #include "main.h"
 
 /**
-* sets a bit at a given index to  then points to the number to change
+ * set_bit - sets a bit at a given index to 1
+ * @n: pointer to the number to change
+ * @index:its the  index of the bit to set to 1
+ *
+ * Return: it gives in output  1 for success, -1 for failure
  */
+
+
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 63)
